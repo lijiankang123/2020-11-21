@@ -1,0 +1,616 @@
+.content {
+  padding-top: 110px;
+  width: 1280px;
+  margin: 0 auto;
+}
+.content .ad {
+  width: 100%;
+}
+.content .ad img {
+  width: 100%;
+}
+.content .navlink {
+  color: #999999;
+  font-size: 14px;
+  margin-top: 24px;
+}
+.content .navlink a {
+  color: #999999;
+}
+.content .column {
+  margin-top: 20px;
+}
+.content .column .leftBox {
+  width: 898px;
+  border-right: 1px solid #000;
+  position: relative;
+  padding-right: 27px;
+  box-sizing: border-box;
+  float: left;
+}
+.content .column .leftBox::before {
+  position: absolute;
+  right: 4px;
+  display: block;
+  content: '';
+  height: 100%;
+  background: #000;
+  width: 1px;
+}
+.content .column .leftBox .baseInfo {
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.content .column .leftBox .baseInfo > h4 {
+  color: #333333;
+  font-size: 36px;
+}
+.content .column .leftBox .baseInfo > p {
+  margin-top: 23px;
+}
+.content .column .leftBox .baseInfo > p strong {
+  color: #d0280a;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+.content .column .leftBox .baseInfo > p span {
+  color: #666666;
+  font-size: 14px;
+}
+.content .column .leftBox .baseInfo > p i {
+  color: #666666;
+  font-size: 14px;
+  font-style: normal;
+}
+.content .column .leftBox .baseInfo .biaoqian {
+  margin-top: 20px;
+}
+.content .column .leftBox .baseInfo .biaoqian > span {
+  font-size: 12px;
+  padding: 0px 8px;
+  border: solid 1px #cccccc;
+  color: #999999;
+  box-sizing: border-box;
+  margin-right: 13px;
+}
+.content .column .leftBox .baseInfo > .tip {
+  margin-top: 18px;
+  color: #999999;
+  font-size: 12px;
+}
+.content .column .leftBox .baseInfo .share {
+  font-size: 14px;
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+}
+.content .column .leftBox .baseInfo .share .fx_Box {
+  position: absolute;
+  right: 210px;
+  bottom: 55px;
+  width: 82px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #E5E5E5;
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  z-index: 999;
+  display: none;
+}
+.content .column .leftBox .baseInfo .share .fx_Box.active {
+  position: absolute;
+  right: 210px;
+  bottom: 55px;
+  width: 82px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #E5E5E5;
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  z-index: 999;
+  display: block;
+}
+.content .column .leftBox .baseInfo .share .fx_Box .qrcode img {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+}
+.content .column .leftBox .baseInfo .share .fx_Box .bdsharebuttonbox .qq {
+  border-top: 1px solid #E5E5E5;
+  padding-left: 30px;
+  height: 26px;
+  display: inline-block;
+  background: url(../image/sqq.png) no-repeat center left;
+  line-height: 33px;
+  background-position: 10% 100%;
+  margin: 4px 0;
+  color: #333;
+  font-size: 14px;
+}
+.content .column .leftBox .baseInfo .share .fx_Box .bdsharebuttonbox .wb {
+  border-top: 1px solid #E5E5E5;
+  padding-left: 30px;
+  height: 26px;
+  display: inline-block;
+  background: url(../image/swb.png) no-repeat center left;
+  line-height: 33px;
+  background-position: 10% 100%;
+  margin: 4px 0;
+  color: #333;
+  font-size: 14px;
+}
+.content .column .leftBox .baseInfo .share .fx_Box .wx {
+  padding-left: 30px;
+  height: 26px;
+  display: inline-block;
+  background: url(../image/swx.png) no-repeat center left;
+  line-height: 33px;
+  background-position: 10% 100%;
+  margin: 4px 0;
+  color: #333;
+  font-size: 14px;
+}
+.content .column .leftBox .baseInfo .share > a {
+  float: left;
+  padding: 10px 25px;
+  box-sizing: border-box;
+  background: #d0280a;
+  border: 1px solid #d0280a;
+  color: #ffffff;
+  margin-left: 12px;
+}
+.content .column .leftBox .baseInfo .share > a:first-child {
+  border: 1px solid #d0280a;
+  background: transparent;
+  color: #d0280a;
+}
+.content .column .leftBox .baseInfo .share > a:nth-child(2) {
+  border: 1px solid #d0280a;
+  background: transparent;
+  color: #d0280a;
+}
+.content .column .leftBox .info {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.content .column .leftBox .info .zwys {
+  margin-top: 40px;
+}
+.content .column .leftBox .info .zwys > h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+.content .column .leftBox .info .zwys > p {
+  margin-top: 25px;
+  color: #333333;
+  font-size: 14px;
+}
+.content .column .leftBox .info .zwys > p i {
+  font-style: normal;
+}
+.content .column .leftBox .info .zwms {
+  margin-top: 40px;
+  color: #333 !important;
+  line-height: 1.5;
+}
+.content .column .leftBox .info .zwms li {
+  list-style: disc;
+  box-sizing: border-box;
+}
+.content .column .leftBox .info .zwms > h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+.content .column .leftBox .info .zwms > h6 {
+  font-size: 14px;
+  color: #333333;
+  margin-top: 25px;
+}
+.content .column .leftBox .info .zwms > p {
+  margin-top: 25px;
+  color: #333333;
+  font-size: 14px;
+}
+.content .column .leftBox .gsjs {
+  margin-top: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 1.5;
+}
+.content .column .leftBox .gsjs > h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+.content .column .leftBox .gsjs > p {
+  color: #333333;
+  margin-top: 25px;
+}
+.content .column .leftBox .lianxi {
+  margin-top: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 1.5;
+}
+.content .column .leftBox .lianxi > p {
+  color: #333333;
+}
+.content .column .leftBox .gswz {
+  margin-top: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.content .column .leftBox .gswz > h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+.content .column .leftBox .gswz .map {
+  margin-top: 25px;
+}
+.content .column .leftBox .gswz .map > h6 {
+  padding-left: 25px;
+  color: #333333;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  background: url('../image/map_icon.png') no-repeat left center;
+}
+.content .column .leftBox .gswz .tip {
+  color: #999999;
+  font-size: 14px;
+  margin-top: 25px;
+}
+.content .column .leftBox .ad2 {
+  width: 868px;
+  overflow: hidden;
+  margin-top: 22px;
+}
+.content .column .leftBox .ad2 a {
+  display: block;
+}
+.content .column .leftBox .ad2 a img {
+  width: 100%;
+}
+.content .column .leftBox .tjzw {
+  margin-top: 54px;
+}
+.content .column .leftBox .tjzw > h5 {
+  font-size: 22px;
+  color: #222222;
+  font-weight: bold;
+  position: relative;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+.content .column .leftBox .tjzw > h5 > a {
+  color: #666666;
+  font-size: 12px;
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  font-weight: normal;
+}
+.content .column .leftBox .tjzw > ul li {
+  padding-top: 25px;
+  float: left;
+  width: 370px;
+  box-sizing: border-box;
+  margin-right: 60px;
+  position: relative;
+  padding-bottom: 20px;
+}
+.content .column .leftBox .tjzw > ul li::after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #e5e5e5;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.content .column .leftBox .tjzw > ul li:nth-child(1) {
+  padding-top: 0;
+  margin-top: 25px;
+}
+.content .column .leftBox .tjzw > ul li:nth-child(1) > a .pic {
+  top: 0;
+}
+.content .column .leftBox .tjzw > ul li:nth-child(2) {
+  padding-top: 0;
+  margin-top: 25px;
+}
+.content .column .leftBox .tjzw > ul li:nth-child(2) > a .pic {
+  top: 0;
+}
+.content .column .leftBox .tjzw > ul li:nth-child(2n) {
+  margin-right: 0;
+  padding-left: 60px;
+  border-left: 1px solid #e5e5e5;
+  width: 435px;
+}
+.content .column .leftBox .tjzw > ul li:nth-child(2n) > a .pic {
+  left: 60px;
+}
+.content .column .leftBox .tjzw > ul li:nth-child(2n)::after {
+  display: block;
+  content: '';
+  width: 370px;
+  height: 1px;
+  background: #e5e5e5;
+  position: absolute;
+}
+.content .column .leftBox .tjzw > ul li > a {
+  display: block;
+}
+.content .column .leftBox .tjzw > ul li > a > .pic {
+  border-radius: 50%;
+  overflow: hidden;
+  border: solid 1px #e5e5e5;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.content .column .leftBox .tjzw > ul li > a > .pic img {
+  width: 100%;
+}
+.content .column .leftBox .tjzw > ul li > a .txtBox {
+  padding-left: 70px;
+}
+.content .column .leftBox .tjzw > ul li > a .txtBox .leftTxt > h6 {
+  float: left;
+  color: #222222;
+  font-size: 18px;
+  font-weight: bold;
+}
+.content .column .leftBox .tjzw > ul li > a .txtBox .leftTxt > span {
+  float: right;
+  color: #666666;
+  font-size: 12px;
+}
+.content .column .leftBox .tjzw > ul li > a .txtBox .rightTxt > h6 {
+  float: left;
+  font-size: 14px;
+  color: #666666;
+  font-weight: normal;
+  width: 230px;
+  overflow: hidden;
+  height: 40px;
+}
+.content .column .leftBox .tjzw > ul li > a .txtBox .rightTxt > span {
+  float: right;
+  color: #d0280a;
+  font-size: 14px;
+}
+.content .column .rightBox {
+  float: right;
+}
+.content .column .rightBox .gsinfo {
+  width: 354px;
+  border: solid 1px #e5e5e5;
+  padding-top: 38px;
+  padding-bottom: 30px;
+}
+.content .column .rightBox .gsinfo .top {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 48px;
+}
+.content .column .rightBox .gsinfo .top .pic {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  border: solid 1px #e5e5e5;
+  box-sizing: border-box;
+}
+.content .column .rightBox .gsinfo .top .pic img {
+  width: 83px;
+  height: 83px;
+}
+.content .column .rightBox .gsinfo .top > a {
+  font-size: 18px;
+  color: #000000;
+  margin-top: 16px;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+}
+.content .column .rightBox .gsinfo .top > h6 {
+  font-size: 18px;
+  color: #000000;
+  margin-top: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+.content .column .rightBox .gsinfo .top .jies {
+  position: relative;
+  width: 354px;
+  overflow: hidden;
+  margin-top: 10px;
+  color: #333333;
+}
+.content .column .rightBox .gsinfo .top .jies .info {
+  text-align: center;
+}
+.content .column .rightBox .gsinfo .top .jies .info > p {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  padding: 0 18px;
+}
+.content .column .rightBox .gsinfo .top .jies .info > p::after {
+  content: '';
+  display: block;
+  width: 1px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  height: 10px;
+  background: #999;
+}
+.content .column .rightBox .gsinfo .top .jies .info > p:last-child::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 0px;
+}
+.content .column .rightBox .gsinfo .top .jies .info > p i {
+  font-style: normal;
+}
+.content .column .rightBox .gsinfo .top .jies2 {
+  padding-left: 26px;
+  color: #333333;
+  font-size: 12px;
+  margin-top: 30px;
+}
+.content .column .rightBox .gsinfo .top .jies2 > p {
+  margin-top: 20px;
+}
+.content .column .rightBox .gsinfo .top .jies2 > p a {
+  color: #333333;
+}
+.content .column .rightBox .gsinfo .top .jies2 > p:nth-child(1) > span {
+  display: inline-block;
+  position: relative;
+  padding: 0 10px;
+}
+.content .column .rightBox .gsinfo .top .jies2 > p:nth-child(1) > span:first-child {
+  padding-left: 0;
+}
+.content .column .rightBox .gsinfo .top .jies2 > p:nth-child(1) > span::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 10px;
+  right: 0;
+  top: 4px;
+  position: absolute;
+  background: #000;
+}
+.content .column .rightBox .gsinfo .top .jies2 > p:nth-child(1) > span:last-child::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 0px;
+  right: 0;
+  top: 7px;
+  position: absolute;
+}
+.content .column .rightBox .gsinfo .down {
+  margin-top: 36px;
+  padding: 0 25px;
+}
+.content .column .rightBox .gsinfo .down > h5 {
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333;
+}
+.content .column .rightBox .gsinfo .down > h5 > a {
+  color: #666666;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+.content .column .rightBox .gsinfo .down ul li {
+  border-bottom: 1px solid #e5e5e5;
+}
+.content .column .rightBox .gsinfo .down ul li a {
+  padding: 25px 0;
+  display: block;
+  color: #333333;
+  font-size: 14px;
+  position: relative;
+  padding-right: 40px;
+}
+.content .column .rightBox .gsinfo .down ul li a > span {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #d0280a;
+}
+.content .column .rightBox .rmgs {
+  width: 354px;
+  margin-top: 36px;
+  border: solid 1px #cfcfcf;
+}
+.content .column .rightBox .rmgs .top {
+  height: 66px;
+  background-color: #f4f4f4;
+  line-height: 66px;
+  padding-left: 24px;
+  font-size: 22px;
+  color: #333333;
+  position: relative;
+  font-weight: 700;
+}
+.content .column .rightBox .rmgs .top a {
+  color: #999999;
+  font-size: 12px;
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+}
+.content .column .rightBox .rmgs ul li {
+  padding: 17px 25px;
+}
+.content .column .rightBox .rmgs ul li a {
+  position: relative;
+  display: block;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.content .column .rightBox .rmgs ul li a .pic {
+  float: left;
+}
+.content .column .rightBox .rmgs ul li a .pic img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #e5e5e5;
+  border-radius: 50%;
+}
+.content .column .rightBox .rmgs ul li a .txtBox {
+  box-sizing: border-box;
+  margin-left: 16px;
+  width: 230px;
+  float: left;
+}
+.content .column .rightBox .rmgs ul li a .txtBox > h5 {
+  font-size: 18px;
+  color: #333333;
+}
+.content .column .rightBox .rmgs ul li a .txtBox > p {
+  font-size: 12px;
+  color: #666666;
+  margin-top: 10px;
+}
+.content .column .rightBox .ad1 {
+  margin-top: 36px;
+}
+.content .column .rightBox .ad1 a {
+  display: block;
+}
+.content .column .rightBox .ad1 a img {
+  width: 354px;
+}

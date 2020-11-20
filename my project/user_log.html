@@ -1,0 +1,118 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/comm.css">
+		<style>
+			.content{width: 470px;height: 400px;}
+			/* .my_font1{color: #d0280a; font-size: 18px;} */
+			/* .my_font2{color: #333;font-size: 18px;} */
+			.breadcrumb-item+.breadcrumb-item::before{content: "|";}
+			.my_bg{background: #ccc;}
+			.breadcrumb-item{
+				background-color: transparent;
+			}
+			.nav-pills .nav-link.active{
+				color: #D0280A;
+				background-color: transparent;
+			} 
+			
+			div a:hover{
+				text-decoration: none;
+			}
+			ul.nav.nav-pills li.nav-item:focus{background-color:transparent;border:1px solid #0aa1ed}
+		</style>
+	</head>
+	<body>
+		<!-- <div class="container">
+			<div class="content breadcrumb p-5">
+					<a class="breadcrumb-item ml-3 font_lg text-danger my_qiehuan" href="#">账号登录</a>
+					<a class="breadcrumb-item mr-5 text-muted my_qiehuan2" href="#">快捷登录</a>
+					<a class="btn btn-outline-danger my_btn font_md ml-5 p-1 rounded-0" href="#">企业用户登录</a>
+				
+				<div class="d-flex flex-column w-100">
+					<input type="text" class=" my-3 py-2 font_md pl-3" placeholder="请输入手机号码">
+					<input type="text" class="mb-5 py-1 font_md pl-3" placeholder="请输入密码">
+					<a class="badge-dark font_lg text-center py-2" href="#">登录</a>
+				</div>
+				<div class=" d-flex justify-content-between w-100 mt-4">
+					<div>
+						<input type="checkbox" class="font_md">下次自动登录
+					</div>
+					<div class="breadcrumb p-1">
+						<a class="breadcrumb-item font_sm text-muted" href="#">忘记密码</a>
+						<a class="breadcrumb-item font_sm text-muted" href="#">注册</a>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		
+		<h4>胶囊导航</h4>
+		<div class="content breadcrumb p-5">
+				<div class="">
+					<ul class="nav nav-pills breadcrumb">
+						<li class="nav-item">
+							<a data-toggle="pill" class="nav-link active breadcrumb-item ml-3 font_lg text-danger" href="#t1"> 账号登录</a>
+						</li>
+						<li class="nav-item ">
+							<a data-toggle="pill" class="nav-link breadcrumb-item text-muted" href="#t2">快捷登录</a>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="pill" class="nav-link btn btn-outline-danger my_btn font_md ml-4 p-1 rounded-0" href="#t3">企业用户登录</a>
+						</li>
+					</ul>
+				</div>
+			    
+			
+			<div class="tab-content container">
+				<div id="t1" class="tab-pane active">
+					<div class="d-flex flex-column">
+						<input type="text" class=" my-3 py-2 font_md pl-3" placeholder="请输入手机号码">
+						<input type="text" class="mb-5 py-2 font_md pl-3" placeholder="请输入密码">
+						<a class="badge-dark font_lg text-center py-2" href="#">登录</a>
+					</div>
+					<div class=" d-flex justify-content-between mt-4">
+						<div>
+							<input type="checkbox" class="font_md">下次自动登录
+						</div>
+						<div class="breadcrumb p-1">
+							<a class="breadcrumb-item font_sm text-muted" href="#">忘记密码</a>
+							<a class="breadcrumb-item font_sm text-muted" href="#">注册</a>
+						</div>
+					</div>
+				</div>
+				<div id="t2" class="tab-pane">
+					<div class="d-flex flex-column">
+						<input type="text" class="my-3 py-2 font_md pl-3" placeholder="请输入手机号码">
+						<div class="d-flex">
+							<input type="text" class=" mr-2 py-2 w-100 pl-3 font_md" placeholder="请输入验证码">
+							<a class="btn btn-danger font_lg py-2" href="#">发送验证码</a>
+						</div>
+						<a class="badge-dark text-center mt-5 py-2 font_lg" href="#">登录</a>
+					</div>
+					<div class="d-flex justify-content-between mt-4">
+						<div class="">
+							<input type="checkbox" class="font_md">下次自动登录
+						</div>
+						<div class="breadcrumb p-0 ">
+							<a class="breadcrumb-item text-muted font_sm" href="#">忘记密码</a>
+							<a class="breadcrumb-item text-muted font_sm" href="#">注册</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <script>
+			var a1=document.getElementsByClassName("my_qiehuan");
+			console.log(a1);
+			a1.onclick=function(){
+				this.style="my_qiehuan2"
+			}
+		</script> -->
+	</body>
+</html>

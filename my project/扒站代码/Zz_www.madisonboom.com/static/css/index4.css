@@ -1,0 +1,447 @@
+.content {
+  padding-top: 110px;
+  width: 1280px;
+  margin: 0 auto;
+}
+.content .ad {
+  width: 100%;
+}
+.content .ad img {
+  width: 100%;
+}
+.content .navlink {
+  color: #999999;
+  font-size: 14px;
+  margin-top: 24px;
+}
+.content .navlink a {
+  color: #999999;
+}
+.content .column {
+  margin-top: 20px;
+}
+.content .column .leftBox {
+  width: 898px;
+  border-right: 1px solid #000;
+  position: relative;
+  padding-right: 27px;
+  box-sizing: border-box;
+  float: left;
+}
+.content .column .leftBox::before {
+  position: absolute;
+  right: 4px;
+  display: block;
+  content: '';
+  height: 100%;
+  background: #000;
+  width: 1px;
+}
+.content .column .leftBox .searchBox {
+  width: 868px;
+}
+.content .column .leftBox .searchBox .inputBox {
+  position: relative;
+}
+.content .column .leftBox .searchBox .inputBox > input {
+  display: block;
+  border: solid 1px #333333;
+  width: 868px;
+  height: 54px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  font-size: 18px;
+  padding-right: 150px;
+}
+.content .column .leftBox .searchBox .inputBox > button {
+  width: 136px;
+  height: 54px;
+  background-color: #333333;
+  border: none;
+  outline: none;
+  background-image: url('../image/search_icon.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.content .column .leftBox .searchBox .inputBox .hotSe {
+  margin-top: 14px;
+  color: #666666;
+  font-size: 14px;
+}
+.content .column .leftBox .searchBox .inputBox .hotSe > a {
+  margin-left: 15px;
+  color: #666666;
+}
+.content .column .leftBox .searchBox .shaixuan {
+  background-color: #f4f4f4;
+  border: solid 1px #cfcfcf;
+  margin-top: 25px;
+  padding: 25px 40px;
+}
+.content .column .leftBox .searchBox .shaixuan > div {
+  position: relative;
+  margin-top: 36px;
+}
+.content .column .leftBox .searchBox .shaixuan > div.didian {
+  height: 28px;
+  overflow: hidden;
+  margin-top: 0px;
+}
+.content .column .leftBox .searchBox .shaixuan > div.didian .sel {
+  width: 500px;
+}
+.content .column .leftBox .searchBox .shaixuan > div.didian.active {
+  height: auto;
+  overflow: visible;
+}
+.content .column .leftBox .searchBox .shaixuan .tit {
+  float: left;
+  width: 90px;
+  font-size: 18px;
+}
+.content .column .leftBox .searchBox .shaixuan .sel {
+  float: left;
+  width: 690px;
+  font-size: 14px;
+  color: #333333;
+}
+.content .column .leftBox .searchBox .shaixuan .sel > span {
+  display: inline-block;
+  padding: 3px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.content .column .leftBox .searchBox .shaixuan .sel > span.active {
+  background-color: #d02908;
+  color: #fff;
+}
+.content .column .leftBox .searchBox .shaixuan .more {
+  position: absolute;
+  right: 0;
+  top: 3px;
+  font-size: 14px;
+  padding-right: 20px;
+  background: url('../image/more_down.png') no-repeat right center;
+  cursor: pointer;
+}
+.content .column .leftBox .info ul li {
+  margin-top: 22px;
+}
+.content .column .leftBox .info ul li a {
+  display: block;
+  border: solid 1px #cfcfcf;
+  box-sizing: border-box;
+}
+.content .column .leftBox .info ul li a .top .lefttxt {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+.content .column .leftBox .info ul li a .top .lefttxt p:first-child span {
+  color: #999999;
+  font-size: 14px;
+  padding-left: 23px;
+}
+.content .column .leftBox .info ul li a .top .lefttxt p:first-child > span.name {
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 0;
+}
+.content .column .leftBox .info ul li a .top .lefttxt p:last-child {
+  margin-top: 23px;
+}
+.content .column .leftBox .info ul li a .top .lefttxt p:last-child strong {
+  font-weight: bold;
+  color: #d02908;
+  font-size: 14px;
+  margin-right: 20px;
+}
+.content .column .leftBox .info ul li a .top .lefttxt p:last-child span {
+  color: #666666;
+  font-size: 14px;
+}
+.content .column .leftBox .info ul li a .top .lefttxt p:last-child i {
+  color: #666666;
+  font-size: 14px;
+  font-style: normal;
+}
+.content .column .leftBox .info ul li a .top .rightpic {
+  float: left;
+  width: 50%;
+  padding-top: 30px;
+  box-sizing: border-box;
+  padding-right: 20px;
+  position: relative;
+}
+.content .column .leftBox .info ul li a .top .rightpic > img {
+  position: absolute;
+  left: 0;
+  top: 13px;
+}
+.content .column .leftBox .info ul li a .top .rightpic > .txt {
+  padding-left: 100px;
+}
+.content .column .leftBox .info ul li a .top .rightpic > .txt > h5 {
+  color: #333333;
+  font-weight: bold;
+  font-size: 18px;
+}
+.content .column .leftBox .info ul li a .top .rightpic > .txt > p {
+  margin-top: 22px;
+  color: #666666;
+  font-size: 14px;
+}
+.content .column .leftBox .info ul li a .top .rightpic > .txt i {
+  font-style: normal;
+}
+.content .column .leftBox .info ul li a .down {
+  margin-top: 13px;
+  background: #f4f4f4;
+  padding-bottom: 20px;
+}
+.content .column .leftBox .info ul li a .down .leftbq {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding-right: 20px;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+.content .column .leftBox .info ul li a .down .leftbq > span {
+  border: solid 1px #cccccc;
+  padding: 2px 5px;
+  float: left;
+  margin-left: 8px;
+  color: #999999;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.content .column .leftBox .info ul li a .down .rightfuli {
+  float: left;
+  box-sizing: border-box;
+  padding-top: 20px;
+  color: #999999;
+  font-size: 12px;
+  width: 50%;
+  padding-right: 20px;
+}
+.content .column .leftBox .info ul li a .down .rightfuli i {
+  font-style: normal;
+}
+.content .column .leftBox .pageBox {
+  margin-top: 90px;
+  text-align: center;
+}
+.content .column .leftBox .pageBox > a {
+  text-align: center;
+  padding: 3px 8px;
+  border: solid 1px #cfcfcf;
+  color: #999999;
+  font-size: 14px;
+  margin-right: 5px;
+  display: inline-block;
+}
+.content .column .leftBox .pageBox > a:last-child {
+  margin-right: 0;
+}
+.content .column .leftBox .pageBox > a.active {
+  background: #d0280a;
+  color: #fefefe;
+  border: solid 1px #d0280a;
+}
+.content .column .rightBox {
+  float: right;
+}
+.content .column .rightBox .zhuanti {
+  position: relative;
+  width: 354px;
+  margin-top: 36px;
+}
+.content .column .rightBox .zhuanti::after {
+  width: 56px;
+  height: 20px;
+  background: #d0280a;
+  text-align: center;
+  line-height: 20px;
+  content: '专题';
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.content .column .rightBox .zhuanti > a {
+  display: block;
+}
+.content .column .rightBox .zhuanti > a img {
+  width: 354px;
+  height: 456px;
+}
+.content .column .rightBox .hot {
+  margin-top: 36px;
+}
+.content .column .rightBox .hot > a {
+  display: block;
+}
+.content .column .rightBox .hot > a img {
+  width: 354px;
+  height: 285px;
+}
+.content .column .rightBox .rmgs {
+  width: 354px;
+  margin-top: 36px;
+  border: solid 1px #cfcfcf;
+}
+.content .column .rightBox .rmgs .top {
+  height: 66px;
+  background-color: #f4f4f4;
+  line-height: 66px;
+  padding-left: 24px;
+  font-size: 22px;
+  color: #333333;
+  position: relative;
+  font-weight: 700;
+}
+.content .column .rightBox .rmgs .top a {
+  color: #999999;
+  font-size: 12px;
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+}
+.content .column .rightBox .rmgs ul li {
+  padding: 17px 25px;
+}
+.content .column .rightBox .rmgs ul li a {
+  position: relative;
+  display: block;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.content .column .rightBox .rmgs ul li a .pic {
+  float: left;
+}
+.content .column .rightBox .rmgs ul li a .pic img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #e5e5e5;
+  border-radius: 50%;
+}
+.content .column .rightBox .rmgs ul li a .txtBox {
+  box-sizing: border-box;
+  margin-left: 16px;
+  width: 230px;
+  float: left;
+}
+.content .column .rightBox .rmgs ul li a .txtBox > h5 {
+  font-size: 18px;
+  color: #333333;
+}
+.content .column .rightBox .rmgs ul li a .txtBox > p {
+  font-size: 12px;
+  color: #666666;
+  margin-top: 10px;
+}
+.content .column .rightBox .wztg {
+  width: 354px;
+  margin-top: 36px;
+  border: solid 1px #cfcfcf;
+  padding-bottom: 20px;
+}
+.content .column .rightBox .wztg .top {
+  height: 66px;
+  background-color: #f4f4f4;
+  line-height: 66px;
+  padding-left: 24px;
+  font-size: 22px;
+  color: #333333;
+  position: relative;
+  font-weight: 700;
+}
+.content .column .rightBox .wztg .top a {
+  color: #999999;
+  font-size: 12px;
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+}
+.content .column .rightBox .wztg .item1 {
+  width: 306px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+}
+.content .column .rightBox .wztg .item1 a img {
+  width: 306px;
+}
+.content .column .rightBox .wztg .item1 > p {
+  position: absolute;
+  bottom: 30px;
+  width: 280px;
+  line-height: 1.5;
+  word-break: break-all;
+  color: #fff;
+  left: 50%;
+  font-size: 18px;
+  transform: translateX(-50%);
+}
+.content .column .rightBox .wztg ul li {
+  width: 307px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.content .column .rightBox .wztg ul li a {
+  position: relative;
+  display: block;
+}
+.content .column .rightBox .wztg ul li a .pic {
+  float: left;
+}
+.content .column .rightBox .wztg ul li a .pic img {
+  width: 116px;
+  height: 80px;
+}
+.content .column .rightBox .wztg ul li a .txtBox {
+  width: 168px;
+  float: right;
+}
+.content .column .rightBox .wztg ul li a .txtBox > h5 {
+  line-height: 1.5;
+  font-size: 14px;
+  color: #333333;
+}
+.content .column .rightBox .wztg ul li a .txtBox .zan {
+  font-size: 12px;
+  color: #999999;
+  position: absolute;
+  left: 140px;
+  bottom: 0;
+  min-width: 14px;
+  height: 14px;
+  background: url('../image/zan2.png') no-repeat left center;
+  padding-left: 20px;
+}
+.content .column .rightBox .wztg ul li a .txtBox .time {
+  font-size: 12px;
+  color: #999999;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.content .column .rightBox .ad1 a {
+  display: block;
+}
+.content .column .rightBox .ad1 a img {
+  width: 354px;
+}

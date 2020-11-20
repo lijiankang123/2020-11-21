@@ -1,0 +1,96 @@
+.my_l1,.my_r1{
+	border: 1px solid #000000;
+	padding: 6px;
+}
+.my_l1{
+	width: 100px;
+	height: 75px;
+}
+.my_l2,.my_r2{
+	border-bottom: 1px solid #000000;
+}
+.my_r1{
+	width: 140px;
+	height: 75px;
+	text-align: center;
+	
+}
+.my_p1{
+	font-size: 18px;
+	margin-bottom: 7px;
+}
+.my_p2{
+	font-size: 12px;
+}
+.my_img{
+	text-align: center;
+	margin-left: 150px;
+}
+.my_span{
+	border-bottom: 1px solid #000000;
+	height: 0;
+	margin-top: 20px;
+}
+.my_input{
+	width: 385px;
+	margin-right: 0;
+	border: 1px solid #000000;
+	background: url(../img/search.png) no-repeat 2px center;
+	background-size: 5%;
+	outline: 0;
+	padding: 5px 23px;
+}
+
+.my_a{
+	border: 1px solid #000000;
+	border-radius: 0;
+	color: #000000;
+	outline: 0;
+	margin-left: 0;
+	border-left: 0;
+	font-size: 14px;
+}
+.my_a:focus,.my_btn:focus{
+	box-shadow: 0 0 0 0;
+}
+.my_border_cu{
+	margin-top: 10px;
+	border-bottom: 2px solid #000000;
+}
+.my_border_xi{
+	margin-top: 3px;
+	border-bottom: 1px solid #000000;
+}
+.my_roll_p{
+	width: 91px;
+	height: 40px;
+	font-size: 15px;
+	border: 1px solid #000000;
+	line-height: 2.5;
+	border-right: 0;
+}
+.my_roll{
+	border: 1px solid #000000;
+	height: 40px;
+	line-height: 2.5;
+}
+.my_roll span+span{
+	margin-right: 10px;
+}
+.my_btn{
+	border: 1px solid #000000;
+	border-left: 0;
+	height: 40px;
+	border-radius: 0;
+}
+/* .my_btn:focus{
+	box-shadow: 0 0 0 0;
+} */
+.my_cut{
+	border-right:1px solid #000000;
+	height: 30px;
+	line-height: 2;
+	width: 0;
+	margin-top: 5px;
+	margin-right: 10px;
+}

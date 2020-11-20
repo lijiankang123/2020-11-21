@@ -1,0 +1,14 @@
+.my_footer_bg{background: #000000;color: white;}
+.my_footer_left a{
+	color: white;
+	margin-right: 40px;
+	}
+	.my_footer_p_left_big{
+		height: 60px;
+		line-height: 3;
+	}
+	.my_footer_p_right_big{
+		font-size: 22px;
+		height: 60px;
+		line-height: 3;
+	}
